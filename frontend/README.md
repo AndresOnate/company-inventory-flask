@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Frontend React - Sistema de Gestión Inventario
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es la interfaz de usuario del Sistema de Gestión Empresarial. Permite a los usuarios interactuar con las vistas de empresas, productos, inventarios y autenticación.
 
-## Available Scripts
+## Tecnologías Utilizadas
 
-In the project directory, you can run:
+- **React**: Framework principal para la construcción de la interfaz.
+- **Axios**: Para manejar las solicitudes HTTP al backend.
+- **React Router**: Para la navegación entre vistas.
+- **Vite**: Como herramienta de construcción para un entorno de desarrollo rápido.
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sigue estos pasos para instalar y ejecutar el frontend:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerrequisitos
 
-### `npm test`
+Asegúrate de tener instalado:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js** (v16 o superior)
+- **npm** o **yarn**
 
-### `npm run build`
+### Instrucciones
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona el repositorio
+   ```bash
+   git clone https://github.com/AndresOnate/company-inventory-flask.git
+   ```
+2. Moverse al directorio
+   ```bash
+   cd company-inventory-flask/frontend
+   ```
+3. Ejecuta el entorno de desarrollo Con npm:
+    ```bash
+       npm start
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Características
+- Formulario de autenticación para inicio de sesión.
+- Gestión de empresas con funcionalidades de creación, edición y eliminación.
+- Visualización y registro de productos asociados a empresas.
+- Generación y descarga de inventarios en formato PDF.
+- Envío de PDFs por correo mediante integración con AWS.
