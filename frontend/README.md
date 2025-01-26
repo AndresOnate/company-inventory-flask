@@ -30,9 +30,9 @@ Asegúrate de tener instalado:
    ```bash
    cd company-inventory-flask/frontend
    ```
-3. Ejecuta el entorno de desarrollo Con npm:
+3. Ejecuta el entorno de desarrollo con npm:
     ```bash
-       npm start
+     npm start
      ```
 
 ### Características
