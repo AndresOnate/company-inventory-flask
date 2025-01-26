@@ -1,0 +1,107 @@
+/* Login.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+/* Estilos aplicados solo a la vista de Login */
+.login-page {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6c63ff, #00d4ff);
+    color: #fff;
+}
+
+.login-page .container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    color: #333;
+}
+
+.login-page .header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.login-page .header .text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3b32e4;
+}
+
+.login-page .header .underline {
+    width: 50px;
+    height: 4px;
+    background: #6c63ff;
+    margin: 0.5rem auto 0;
+    border-radius: 4px;
+}
+
+.login-page .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login-page .input {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.login-page .input:hover {
+    border-color: #6c63ff;
+}
+
+.login-page .input img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.8rem;
+}
+
+.login-page .input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    color: #333;
+}
+
+.login-page .submit-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.login-page .submit {
+    flex: 1;
+    background: #2d24e6;
+    color: #fff;
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    outline: none; /* Elimina el borde blanco que aparece al hacer clic */
+    border: none; /* Asegura que no haya ningún borde adicional */
+}
+
+.login-page .submit:hover {
+    background: #5b54d6;
+}
