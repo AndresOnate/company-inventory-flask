@@ -4,17 +4,13 @@
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 
-.venv/
-
-*.pyc
+.idea/
+.vscode/
+.venv*/
+venv*/
 __pycache__/
-
-instance/
-
-.pytest_cache/
-.coverage
-htmlcov/
-
 dist/
-build/
-*.egg-info/
+.coverage*
+htmlcov/
+.tox/
+docs/_build/
