@@ -6,27 +6,26 @@ Este proyecto consiste en el desarrollo de una aplicación que gestiona empresas
 
 ### 1. Vista Empresa
 Formulario que permite capturar la siguiente información:
-- **NIT:** Llave primaria.
-- **Nombre de la empresa.**
-- **Dirección.**
-- **Teléfono.**
+
+![image](https://github.com/user-attachments/assets/10e4c08f-44e4-473a-b466-7f617383fbed)
+
 
 ### 2. Vista Productos
 Formulario que permite capturar la siguiente información:
-- **Código.**
-- **Nombre del producto.**
-- **Características.**
-- **Precio en varias monedas.**
-- **Empresa asociada.**
+
+![image](https://github.com/user-attachments/assets/55c028c4-b5e8-47c9-9418-b24d6174786c)
 
 ### 3. Vista Inicio de Sesión
 Formulario para la autenticación de usuarios con:
-- **Correo electrónico.**
-- **Contraseña.**
+
+![image](https://github.com/user-attachments/assets/157df122-e80b-44cf-9c36-192e9243f4db)
+
 
 ### 4. Vista Inventario
 - Formulario que permite la descarga de un PDF con la información de la tabla de inventario.
 - Funcionalidad para enviar dicho PDF a un correo específico utilizando una API de AWS.
+
+![image](https://github.com/user-attachments/assets/a3e88b67-31f7-4b71-a42c-43cfe4c8773b)
 
 ## Tipos de Usuario
 
